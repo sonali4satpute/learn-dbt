@@ -1,0 +1,9 @@
+name: Analytics
+version: '1.0'
+config-version: 2
+
+profile: Analytics  # Must match the profile name in dbt Cloud
+
+model-paths: ["models"]
+target-path: "target"
+clean-targets: ["target", "dbt_modules"]
